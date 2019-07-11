@@ -5,7 +5,7 @@
 ### Adriana Graybill and Lee helped with creating an image for class reference
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/adriana-401-advanced-javascript/simple-api/pull/1)
 * [Front-end](https://codesandbox.io/s/api-client-f2b1t)
 
 #### Documentation
