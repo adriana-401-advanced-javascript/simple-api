@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "yikes",
+      "display_name": 1,
+      "description": 1
+    },
+    {
+      "id": 2,
+      "description": "updated description",
+      "display_name": "a thing",
+      "name": "philbert"
+    },
+    {
+      "id": 3,
+      "description": "super nice",
+      "display_name": "a thing",
+      "name": "philbert"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": 1,
+      "name": "yikes",
+      "display_name": 1,
+      "description": 1
+    },
+    {
+      "id": 2,
+      "category": 1,
+      "name": "boof",
+      "display_name": 1,
+      "description": 1
+    }
+  ]
+}
