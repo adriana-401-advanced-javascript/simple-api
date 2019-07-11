@@ -1,0 +1,77 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Simple API",
+    "description" : "Lab, introduction to HTTP and REST",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:3000"
+  } ],
+  "paths" : {
+    "/categories" : {
+      "get" : {
+        "description" : "Categories accepts id, name, display name, and description.",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : [
+                  {
+                    "id": 1,
+                    "name": "string",
+                    "display_name": "string",
+                    "description": "string"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/products" : {
+      "get" : {
+        "description" : "Products accepts id, category, name, display name, and description.",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : [
+                  {
+                    "id": 1,
+                    "category": "string",
+                    "name": "string",
+                    "display_name": "string",
+                    "description": "string"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    }
+  },
+  "components" : { }
+}
